@@ -1,5 +1,11 @@
 body{
     font-family: 'Roboto' sans-serif;
 }
-.project-paragraph{ font: weight 400px;
+.project-paragraph{
     line-height: 1.5;}
+.project-title{
+        line-height: 1.2;
+    }
+    .filter-button{background-color: brown;
+
+    }
