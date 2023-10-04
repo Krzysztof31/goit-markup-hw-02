@@ -24,13 +24,17 @@ font-family: "Roboto",sans-serif;
 font-weight: bold;
 font-size: 56px;
 letter-spacing: 0.02em;
-line-height: 60px;
+line-height: 1.07;
+text-align: center;
+color: #FFFFFF
+;
 }
 .second-headline{
     font-family: "roboto";
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
+    
 
 }
 .project-title{
@@ -42,7 +46,7 @@ line-height: 60px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
-        
+
     
     }
 
@@ -78,10 +82,21 @@ line-height: 60px;
 
 
     }
-    .first-section{
+    .section-first{
         background-color: #2E2F42;
 
+
     }
+        .button-section-first{
+            background-color: #4D5AE5;
+            font-family: "Roboto" sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #FFFFFF
+            ;
+        }
    
 
     .address{
