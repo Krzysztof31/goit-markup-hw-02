@@ -11,16 +11,27 @@
 
 }
 body{
-    font-family: 'Roboto' sans-serif;
+    font-family:"Roboto", sans-serif;
     background-color:#FFFFFF;
     color: #434455;
     font-weight: 400;
 }
-.project-paragraph{
-    line-height: 1.5;}
 .project-title{
+        
+        color: var(--brand-color-navyblue);
+        font-weight: 500;
+        font-size: 20px;
         line-height: 1.2;
+        letter-spacing: 0.02em;
+    
     }
+
+.project-paragraph{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;}
+
+    
     .filter-button{
 
     }
