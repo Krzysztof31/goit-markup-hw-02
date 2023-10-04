@@ -1,11 +1,26 @@
+:root{
+    --brand-color-slate:#434455;
+    --brand-color-white:#FFFFFF;
+    --brand-color-iris:#4D5AE5;
+    --brand-color-navyblue:#2E2F42;
+    --brand-color-ocean:#404BBF;
+    --brand-color-cloud:#F4F4FD;
+    --brand-color-cornflower:#E7E9FC;
+
+
+
+}
 body{
     font-family: 'Roboto' sans-serif;
+    background-color:#FFFFFF;
+    color: #434455;
+    font-weight: 400;
 }
 .project-paragraph{
     line-height: 1.5;}
 .project-title{
         line-height: 1.2;
     }
-    .filter-button{background-color: brown;
+    .filter-button{
 
     }
