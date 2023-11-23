@@ -1,8 +1,13 @@
 :root {
+    --first-color-text:#4D5AE5;
 
 
 }
 body{
     
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: #434455;
+background-color: #FFFFFF;
 
 }
