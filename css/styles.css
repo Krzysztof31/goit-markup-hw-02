@@ -1,5 +1,7 @@
 :root {
     --first-color-text:#4D5AE5;
+    --second-color-text:#2e2f42;
+    
 
 
 }
@@ -10,4 +12,21 @@ font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--first-color-text);
+
+
+   
+}
+.link{ text-decoration: none;
+}
+.span{
+    color: var(--second-color-text);
+    
 }
