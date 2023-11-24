@@ -3,6 +3,10 @@
     --second-color:#2e2f42;
     --third-colour:#ffffff;
     --four-colour:#F4F4FD;
+    --fifth-colour:#404bbf;
+--six-colour:#434455;
+
+
 
 
 
@@ -43,17 +47,21 @@ background-color: var(--third-colour)
     list-style: none;
 
 }
-.list-element{
+.link-list-element{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-color);
 }
-.special-element{
-    text-decoration: none;
-    
+.link-list-element:hover
+.link-list-element:focus
+{
+    color: var(--fifth-colour);
 }
+
+    
+
 .second-header{
     font-size: 36px;
     line-height: 1.11;
@@ -85,12 +93,14 @@ background-color: var(--third-colour)
     background-color:var(--first-color);
     font-family:'Roboto',
         sans-serif;
-        font-weight: 500px;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: var(--third-colour);
+        cursor: pointer;
 }
+
 .section-four{
     background-color: var(--four-colour);
 
@@ -108,4 +118,20 @@ background-color: var(--third-colour)
 }
 .footer-element{
     background-color: var(--second-color);
+}
+.address-class{
+    font-style: normal;
+
+    
+}
+.link-adress{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--six-colour)
+
+}
+.text-class{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
 }
