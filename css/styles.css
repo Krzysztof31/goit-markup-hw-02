@@ -18,19 +18,26 @@ background-color: var(--third-colour)
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 18;
+    font-size: 18px;
     letter-spacing: 0.03em;
+    line-height: 1.17;
     text-transform: uppercase;
-    color:var(--second-color)
+    color:var(--first-color)
 
-
-   
 }
+
+
+
+
 .link{ text-decoration: none;
 }
 .span{
     color: var(--second-color);
+    
 
+}
+.span-bottom{
+    color: var(--four-colour);
 }
 .list{
     list-style: none;
