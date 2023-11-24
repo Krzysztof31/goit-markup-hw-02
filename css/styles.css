@@ -2,7 +2,8 @@
     --first-color:#4D5AE5;
     --second-color:#2e2f42;
     --third-colour:#ffffff;
-    
+    --four-colour:#F4F4FD;
+
 
 
 }
@@ -54,8 +55,15 @@ background-color: var(--third-colour)
     text-transform: capitalize;
     color: var(--second-color);
 }
-.first-section{
+.temporary-class{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--second-color);
+}
+.first-section{
+    background-color: var(--second-color);
 
 }
 .main-header{
@@ -75,4 +83,22 @@ background-color: var(--third-colour)
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: var(--third-colour);
+}
+.section-four{
+    background-color: var(--four-colour);
+
+}
+.team-members{
+    background-color: var(--third-colour);
+}
+.third-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+
+}
+.footer-element{
+    background-color: var(--second-color);
 }
