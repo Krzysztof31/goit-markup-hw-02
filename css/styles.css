@@ -82,13 +82,8 @@ button:focus{
     
     color: var(--second-color);
 }
-.temporary-class{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--second-color);
-}
+
+
 .first-section{
     background-color: var(--second-color);
 
