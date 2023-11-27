@@ -6,10 +6,6 @@
     --fifth-colour:#404bbf;
 --six-colour:#434455;
 
-
-
-
-
 }
 body{
     
@@ -62,7 +58,11 @@ a:focus{
 
     color:var(--fifth-colour)
 }
-
+button:hover,
+button:focus{
+    color: var(--third-colour);
+    background-color: var(--fifth-colour);
+}
     
 
 .second-header{
