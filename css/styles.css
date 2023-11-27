@@ -73,6 +73,15 @@ button:focus{
     text-transform: capitalize;
     color: var(--second-color);
 }
+.second-header-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    
+    letter-spacing: 0.02em;
+    
+    color: var(--second-color);
+}
 .temporary-class{
     font-weight: 500;
     font-size: 20px;
@@ -94,8 +103,7 @@ button:focus{
 }
 .button{
     background-color:var(--first-color);
-    font-family:'Roboto'
-        sans-serif;
+   font-family: 'Roboto' sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
