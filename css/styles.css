@@ -154,3 +154,6 @@ button:focus{
 .text-class-extra{
     color: var(--four-colour);
 }
+.extra{
+    color: var(--six-colour);
+}
