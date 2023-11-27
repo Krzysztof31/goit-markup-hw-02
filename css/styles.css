@@ -115,8 +115,7 @@ button:focus{
            color: var(--first-color);
         }
         .button-list{
-            font-family:'Roboto'
-                    sans-serif;
+            font-family: 'Roboto' sans-serif;
         }
 
 
