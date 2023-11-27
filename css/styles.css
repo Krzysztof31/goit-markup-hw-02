@@ -54,15 +54,13 @@ background-color: var(--third-colour)
     letter-spacing: 0.02em;
     color: var(--second-color);
 }
-a:hover
-
-{
-    color: var(--fifth-colour);
-}
+a:hover,
 a:focus{
+
+    color: var(--fifth-colour);
+
+
     color:var(--fifth-colour)
-
-
 }
 
     
