@@ -48,7 +48,7 @@ background-color: var(--third-colour)
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color: var(--six-colour)
 }
 a:hover,
 a:focus{
@@ -123,9 +123,7 @@ button:focus{
         cursor: pointer;
         color: var(--first-color);
         }
-        .button-list{
-        font-family: 'Roboto' sans-serif;
-        }
+     
 
 
 .section-four{
