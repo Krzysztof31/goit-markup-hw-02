@@ -9,7 +9,8 @@
 }
 body{
     
-font-family: 'Raleway''Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 color: #434455;
 background-color: var(--third-colour)
@@ -99,7 +100,7 @@ button:focus{
 .button{
    
     background-color:var(--first-color);
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -109,8 +110,7 @@ button:focus{
 }
 .button-second{
         background-color: var(--four-colour);
-        font-family: 'Roboto'
-        sans-serif;
+        font-family: 'Roboto',sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
