@@ -83,13 +83,19 @@ color:var(--fifth-colour);
     color: var(--third-colour);
     cursor: pointer;
 }
-.button:hover,
+.button:hover{
+background-color: var(--fifth-colour);
+}
 .button:focus{
     color: var(--third-colour);
-    background-color: var(--fifth-colour);
+        background-color: var(--fifth-colour);
 }
 .button-second:hover{
-    background-color: var(--fifth-colour);
+background-color: var(--fifth-colour);
+}
+.button-second:focus{
+  color: var(--third-colour);
+  background-color: var(--fifth-colour);
 }
 .button-second{
     background-color: var(--four-colour);
