@@ -14,16 +14,17 @@ body{
      background-color: var(--third-colour)
 }
 .logo{
+    color:var(--first-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
-    color:var(--first-color)
+    
 }
 .link{ text-decoration: none;
-    color: var(--fifth-colour);
+    color:var(--fifth-colour);
     color:var(--fifth-colour)
 
 }
@@ -91,7 +92,7 @@ background-color: var(--fifth-colour);
         background-color: var(--fifth-colour);
 }
 .button-second:hover{
-background-color: var(--fifth-colour);
+color: var(--third-colour);
 }
 .button-second:focus{
   color: var(--third-colour);
