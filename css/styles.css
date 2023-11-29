@@ -121,6 +121,6 @@ body{
 .footer-element{
     background-color: var(--second-color);
 }
-.navigation:hover{
+.navigation-class:hover{
     color: var(--fifth-colour);
 }
