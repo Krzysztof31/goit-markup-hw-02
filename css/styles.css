@@ -27,8 +27,6 @@ body{
 
 }
 
-
-
 .link-list-element{
     font-weight: 500;
     font-size: 16px;
@@ -40,9 +38,6 @@ body{
 .link-list-element:focus{
 color:var(--fifth-colour);
 }
-
-
-
 
 .list{
     list-style: none;
