@@ -37,7 +37,8 @@ body{
     letter-spacing: 0.02em;
     color: var(--second-color)
 }
-.link-list-element:hover{
+.link-list-element:hover,
+.link-list-element:focus{
 color:var(--fifth-colour);
 }
 
