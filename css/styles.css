@@ -132,7 +132,7 @@ color: var(--third-colour);
     color: var(--second-color);
 }
 .span-bottom{
-    color: var(--first-color)
+    color: var(--four-colour)
 }
 .footer-element{
     background-color: var(--second-color);
