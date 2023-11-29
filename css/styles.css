@@ -25,9 +25,11 @@ body{
 .link{ text-decoration: none;
     color: var(--fifth-colour);
     color:var(--fifth-colour)
+
 }
+
 .link-list-element{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -77,6 +79,9 @@ body{
     color: var(--third-colour);
     background-color: var(--fifth-colour);
 }
+.button-second:hover{
+    background-color: var(--fifth-colour);
+}
 .button-second{
     background-color: var(--four-colour);
     font-family: 'Roboto',sans-serif;
@@ -111,8 +116,11 @@ body{
     color: var(--second-color);
 }
 .span-bottom{
-    color: var(--four-colour);
+    color: var(--first-color)
 }
 .footer-element{
     background-color: var(--second-color);
+}
+.navigation:hover{
+    color: var(--fifth-colour);
 }
