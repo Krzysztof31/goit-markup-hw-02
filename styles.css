@@ -1,9 +1,118 @@
-:root{
-    --iris-color:#4d5ae5;
-    --ocean-colour:#404bbf;
-    --grey-colour:#2e2f42;
-    --slate-colour:#434455;
-    --cloud-color:#f4f4fd;
-    --white--color:#ffffff;
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+body {
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:var(--slate);
+    background-color: var(--white);
+}
+
+
+/* nagłówki*/
+
+.main-header{
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    color: var(--white);
+}
+
+.second-header {
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    line-height: 1.11; 
+   
 
 }
+
+.third-header{
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    line-height: 1,2;
+    font-weight: 500;
+    
+
+}
+.text{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+        
+}
+.text-footer{
+    color: var(--cloud);
+}
+/* logo  */
+.logo{
+   color: var(--iris);
+   font-family:'Raleway';
+   font-weight: 700;
+   font-size: 18px;
+   letter-spacing: 0.03em;
+   line-height: 1.17;
+   text-transform: uppercase;
+
+}
+span{
+   color: var(--navy-blue);
+
+}
+.span-bottom{
+   color:var(--cloud);
+}
+/* linki */
+.clear-underline{
+    text-decoration: none;
+
+}
+.link-list{
+    color: b=var(--navy-blue);
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+
+
+}
+/* list */
+.list{
+    list-style: none;
+}
+
+/* adress */
+.adres-list{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+
+
+/* przyciski */
+.button{
+        background-color:var(--iris);
+        font-family:'Roboto',sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--white);
+}
+
