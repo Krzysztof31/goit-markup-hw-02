@@ -21,7 +21,7 @@ body {
 }
 
 
-/* nagłówki*/
+/* nagłówki/text*/
 
 .main-header{
     font-size: 56px;
@@ -35,7 +35,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     line-height: 1.11; 
-   
+    text-align: center;
+    text-transform: capitalize;
 
 }
 
@@ -43,7 +44,7 @@ body {
     font-size: 20px;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    line-height: 1,2;
+    line-height: 1.5;
     font-weight: 500;
     
 
@@ -57,11 +58,20 @@ body {
 }
 .text-footer{
     color: var(--cloud);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* sekcje */
+.first-section{
+    background-color: var(--cloud);
+}
+.third-section{
+    background-color: var(--cloud);
 }
 /* logo  */
 .logo{
    color: var(--iris);
-   font-family:'Raleway';
+   font-family:'Raleway' sans-serif;
    font-weight: 700;
    font-size: 18px;
    letter-spacing: 0.03em;
@@ -115,4 +125,6 @@ span{
         letter-spacing: 0.04em;
         color: var(--white);
 }
-
+.footer{
+    background-color:var(--navy-blue);
+}
