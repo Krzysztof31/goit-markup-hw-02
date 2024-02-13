@@ -51,10 +51,10 @@ body {
 
 }
 .text{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
         
 }
 .text-footer{
@@ -93,7 +93,7 @@ span{
 
 }
 .link-list{
-    color: b=var(--navy-blue);
+    color:var(--navy-blue);
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
@@ -134,20 +134,20 @@ span{
 
 /* przyciski */
 .button{
-        background-color:var(--iris);
-        font-family:'Roboto',sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: var(--white);
-        cursor: pointer;
+    background-color:var(--iris);
+    font-family:'Roboto',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
 }
 .button:hover{
-background-color: var(--ocean);
+    background-color: var(--ocean);
 }
 .button:focus{
-background-color: var(--ocean);
+    background-color: var(--ocean);
 }
 /* foter */
 .footer{
