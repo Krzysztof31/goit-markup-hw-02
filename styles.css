@@ -44,7 +44,7 @@ body {
     font-size: 20px;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: 500;
     
 
@@ -71,7 +71,7 @@ body {
 /* logo  */
 .logo{
    color: var(--iris);
-   font-family:'Raleway' sans-serif;
+   font-family:'Raleway'sans-serif;
    font-weight: 700;
    font-size: 18px;
    letter-spacing: 0.03em;
@@ -111,8 +111,16 @@ span{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
+.adres-link{
+    color: var(--slate);
 
+}
+.adres-link:hover,
+.adres-link:focus{
+    color: var(--ocean);
+}
 
 
 /* przyciski */
