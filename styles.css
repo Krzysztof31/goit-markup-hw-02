@@ -64,7 +64,7 @@ body {
 }
 /* sekcje */
 .first-section{
-    background-color: var(--cloud);
+    background-color:var(--navy-blue)
 }
 .third-section{
     background-color: var(--cloud);
@@ -101,6 +101,12 @@ span{
 
 
 }
+.link-list:hover,
+.link-list:focus{
+    color: var(--ocean);
+}
+
+
 /* list */
 .list{
     list-style: none;
@@ -143,7 +149,7 @@ background-color: var(--ocean);
 .button:focus{
 background-color: var(--ocean);
 }
-
+/* foter */
 .footer{
     background-color:var(--navy-blue);
 }
